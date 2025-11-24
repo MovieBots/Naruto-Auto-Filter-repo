@@ -50,12 +50,12 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False) # Type True For Turn On MULTIPLE DB FUNTION 
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+lwmT_ESNTLlkMTJl')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+XOO-8rE-57Q3ZjU1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+m2-CnUFU_5c1MDQ1')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Arpitbotmovies')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/+m2-CnUFU_5c1MDQ1')
 
-AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "") # add multiple channels here, separated by single space
+AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002834808662") # add multiple channels here, separated by single space
 AUTH_CHANNEL = [int(ch) for ch in AUTH_CHANNEL.strip().split()] if AUTH_CHANNEL else []
 AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '') # add multiple channels here, separated by single space
 AUTH_REQ_CHANNEL = [int(ch) for ch in AUTH_REQ_CHANNEL.strip().split()] if AUTH_REQ_CHANNEL else []
