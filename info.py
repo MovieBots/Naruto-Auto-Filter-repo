@@ -69,8 +69,8 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_to_verify_tokens")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/How_to_verify_tokens")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/How_to_verify_tokens")
 
-SHORTENER_API = environ.get("SHORTENER_API", "https://arolinks.com")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "400943cae6dd48a8143eba5a5f055d4bad4c92f8")
+SHORTENER_API = environ.get("SHORTENER_API", "https://mdiskshort.in")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "41e0c4c6adc77f28c5f19ce4369edef38155e317")
 
 SHORTENER_API2 = environ.get("SHORTENER_API2", "https://arolinks.com")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "400943cae6dd48a8143eba5a5f055d4bad4c92f8")
